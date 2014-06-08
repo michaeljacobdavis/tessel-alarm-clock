@@ -3,9 +3,15 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/foreman/nf.js start"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Michael Davis",
+  "dependencies": {
+    "foreman": "^0.3.0",
+    "forever": "^0.11.1",
+    "node-schedule": "^0.1.13",
+    "player": "^0.1.8"
+  }
 }
