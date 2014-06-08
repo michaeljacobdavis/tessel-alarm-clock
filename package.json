@@ -9,9 +9,11 @@
   },
   "author": "Michael Davis",
   "dependencies": {
+    "audio-vs1053b": "^0.1.6",
     "foreman": "^0.3.0",
     "forever": "^0.11.1",
+    "nipple": "^2.5.3",
     "node-schedule": "^0.1.13",
-    "player": "^0.1.8"
+    "tessel": "^0.1.0"
   }
 }
